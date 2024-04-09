@@ -8,10 +8,88 @@
 </head>
 <body id="principal">
 
+    <div id="tela-filme" style='overflow-y: hidden' hidden>
+        <div id="play">
+            <p class="close" onclick="fechar()"> X </p>
+            <img src="multimidia/Icons/play-button.png" class="btnplay" width="20%" height="30%" onclick="abrir_filme()">
+            <img src="multimidia/Modelo_telafilme.png" width="100%" height="100%" class="filter_filme">
+            <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.jpg" width="100%" height="80%">
+            <h3 id="sinopse"> Sinopse: </h3>
+            <p class="sinopse">
+                Nana, uma jovem parisiense que trabalha em um loja de discos, está desiludida pela pobreza e seu casamento em ruínas. 
+                Na esperança de se tornar uma atriz famosa, ela se decepciona mais uma vez, e se entrega à sombria vida de prostituição. 
+                Quando ela conhece um homem que realmente se importa com ela, Nana ganha tem um nova esperança - porém, seu cafetão, Raoul, tem a palavra final.
+            </p>
+        </div>
+    </div>
+
+    <div id="tela-filme1" hidden>
+        <div id="play">
+            <p class="close" onclick="fechar1()"> X </p>
+            <img src="multimidia/Icons/play-button.png" class="btnplay" width="20%" height="30%" onclick="abrir_filme1()">
+            <img src="multimidia/Modelo_telafilme.png" width="100%" height="100%" class="filter_filme">
+            <img src="multimidia/filmes/the_poushkeepsie_tapes/1-agrcgm1xlMB7_i_dbGtrZA.jpeg" width="100%" height="80%">
+            <h3 id="sinopse"> Sinopse: </h3>
+            <p class="sinopse">
+                A descoberta de centenas de cassetes de vídeo com torturas, 
+                mortes e desmembramentos em uma casa abandonada revela o reinado de terror de um assassino em série que cometeu homicídios durante uma década.
+            </p>
+        </div>
+    </div>
+
     <div id="tela-filme" hidden>
         <div id="play">
             <p class="close" onclick="fechar()"> X </p>
-                <iframe src="https://drive.google.com/file/d/1Qtt22irUwEhFD8fIfYTczuBR9BN99Dml/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+            <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.jpg" width="100%" height="100%" hidden>
+            <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.jpg" width="100%" height="80%">
+        </div>
+    </div>
+
+    <div id="tela-filme" hidden>
+        <div id="play">
+            <p class="close" onclick="fechar()"> X </p>
+            <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.jpg" width="100%" height="100%" hidden>
+            <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.jpg" width="100%" height="80%">
+        </div>
+    </div>
+
+    <div id="tela-filme" hidden>
+        <div id="play">
+            <p class="close" onclick="fechar()"> X </p>
+            <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.jpg" width="100%" height="100%" hidden>
+            <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.jpg" width="100%" height="80%">
+        </div>
+    </div>
+
+    <div id="tela-filme" hidden>
+        <div id="play">
+            <p class="close" onclick="fechar()"> X </p>
+            <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.jpg" width="100%" height="100%" hidden>
+            <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.jpg" width="100%" height="80%">
+        </div>
+    </div>
+
+    <div id="tela-filme" hidden>
+        <div id="play">
+            <p class="close" onclick="fechar()"> X </p>
+            <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.jpg" width="100%" height="100%" hidden>
+            <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.jpg" width="100%" height="80%">
+        </div>
+    </div>
+
+    <div id="tela-filme" hidden>
+        <div id="play">
+            <p class="close" onclick="fechar()"> X </p>
+            <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.jpg" width="100%" height="100%" hidden>
+            <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.jpg" width="100%" height="80%">
+        </div>
+    </div>
+
+    <div id="tela-filme" hidden>
+        <div id="play">
+            <p class="close" onclick="fechar()"> X </p>
+            <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.jpg" width="100%" height="100%" hidden>
+            <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.jpg" width="100%" height="80%">
         </div>
     </div>
 
@@ -30,45 +108,51 @@
     
 
     <div id="conteudo">
-        <h2 id="princ_titulos"> Principais títulos </h2>
-        <div id="filmes">
 
-        <div id="btn-left" onclick="direcao(1)" hidden>
-            <
-        </div>
+        <div id="sociedade">
+        <h2 id="princ_titulos"> Debate sociedade cinéfila </h2>
+        <p class="vejamais"> <a href="filmes.html" title="Ver Todos"> Veja mais > </a></p>
+
+        <div id="filmes">
 
                 <div id="slide1" onclick="abrir(1)">
                     <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.png" width="100%" height="100%" class="filme">
-                    <p> <strong> VIVRE SA VIE </strong> </p>
+                    <p> <strong> Vivre sa vie </strong> </p>
                 </div>
-                <div id="slide1" onclick="abrir(2)">
+                <div id="slide1" onclick="abrir1(2)">
                     <img src="multimidia/filmes/the_poushkeepsie_tapes/the_tapes.png" width="100%" height="100%" class="filme">
                     <p> <strong> THE POUSHKEEPSIE TAPES </strong> </p>
                 </div>
                 <div id="slide1" onclick="abrir(3)">
-                    <img src="multimidia/Modelo.png" width="100%" height="100%" class="filme">
-                    <p> <strong> TESTE </strong> </p>
+                    <img src="multimidia/filmes/romacing_in_the_rain/romance.png" width="100%" height="100%" class="filme">
+                    <p> <strong> Romacing in thin air </strong> </p>
                 </div>
                 <div id="slide1" onclick="abrir(4)">
-                    <img src="multimidia/Modelo.png" width="100%" height="100%" class="filme">
-                    <p> <strong> TESTE </strong> </p>
+                    <img src="multimidia/filmes/hora_da_estrela/horadaestrela.png" width="100%" height="100%" class="filme">
+                    <p> <strong> Hora da Eetrela </strong> </p>
                 </div>
                 <div id="slide1" onclick="abrir(5)">
-                    <img src="multimidia/Modelo.png" width="100%" height="100%" class="filme">
-                    <p> <strong> TESTE</strong> </p>
+                    <img src="multimidia/filmes/casino/casino.png" width="100%" height="100%" class="filme">
+                    <p> <strong> Casino </strong> </p>
                 </div>
                 <div id="slide1" onclick="abrir(6)">
-                    <img src="multimidia/Modelo.png" width="100%" height="100%" class="filme">
-                    <p> <strong> TESTE </strong> </p>
+                    <img src="multimidia/filmes/love/love.png" width="100%" height="100%" class="filme">
+                    <p> <strong> That Most Important Thing: Love </strong> </p>
                 </div>
 
-        <div id="btn-right" onclick="direcao(2)" hidden>
-            >
         </div>
+        </div>
+
+        <div id="gepic">
+
+            <h2 id="princ_titulos1"> Filmes GEPIC </h2>
+            <p class="vejamais1"> <a href="filmes.html" title="Ver Todos"> Veja mais > </a></p>
+
+
         </div>
 
     </div>
-    
+
     <footer id="rodape1">
         <p> <i> Sociedade cinéfila ©️ 2024</i> </p>
     </footer>

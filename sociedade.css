@@ -10,7 +10,7 @@ body{
     text-align: center;
 }
 
-a{
+#cabec a{
     text-decoration: none;
 }
 
@@ -59,30 +59,13 @@ a{
     border-radius: 10pt;
 }
 
-#imagem{
-    margin-top: 60px;
-}
-
 #loginBlock p{
     color: rgb(255, 166, 0);
     text-shadow: 3px 3px 10px rgb(0, 0, 0);
 }
 
+/* Cabeçalho */
 
-#rodape{
-    background-color: rgb(40, 9, 61);
-    height: 25px;
-    margin-top: 12.45%;
-    padding: 2%;
-    margin-bottom: 0;
-    font-size: 10pt;
-    color: white;
-    line-height: 200%;
-    font-size: 70%;
-}
-
-
-/* tela principal */
 
 #cabec #titulo{
     margin-top: 0%;
@@ -98,112 +81,6 @@ a{
     padding: 1.5% 10%;
     padding-right: 12%;
     backdrop-filter: blur(2px);
-}
-
-#princ_titulos{
-    color: rgb(255, 166, 0);
-    text-shadow: 5px 5px 5px black;
-    text-align: left;
-    padding: 8%;
-}
-
-#filmes{
-    position: absolute;
-    padding: 5%;
-    height: 200px;
-    top: 10%;
-    z-index: 0;
-    display: flex;
-    overflow-x: auto;
-    overflow-y: hidden;
-}
-
-#filmes #slide1{
-    position: relative;
-    top: 15%;
-    height: 175px;
-    background-color: white;
-    display: inline-block;
-    margin: 0 5px;
-    cursor: pointer;
-    user-select: none;
-}
-
-#slide1 p{
-    color: rgb(255, 255, 255);
-    font: bolder 100% arial;
-    position: relative;
-    bottom: 30%;
-    text-shadow: 5px 2px 5px black;
-    line-height: 100%;
-    padding: auto;
-    user-select: none;
-}
-
-#slide1:hover{
-    border: solid 2px white;
-}
-
-.filme {
-    box-shadow: 1px 1px 10px #000000; 
-}
-
-#tela-filme{
-    background-color: rgba(0, 0, 0, 0.479);
-    z-index: 1;
-    position: absolute;
-    width: 100%;
-    height: 1083px;
-}
-
-#play{
-    background-color: rgb(0, 0, 0);
-    z-index: 1;
-    position: relative;
-    width: 50%;
-    height: 640px;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#play .close{
-    color: white;
-    text-align: right;
-    padding: 1% 2%;
-    cursor: pointer;
-    margin-left: 95%;
-    user-select: none;
-}
-
-#btn-left{
-    position: absolute;
-    margin-top: 1%;
-    background-color: rgba(255, 255, 255, 0.623);
-    width: 2%;
-    color: black;
-    left: 2%;
-    text-align: center;
-    height: 200px;
-    line-height: 200px;
-    z-index: 1;
-    cursor: pointer;
-    user-select: none;
-}
-
-#btn-right{
-    position: absolute;
-    margin-top: 1%;
-    background-color: rgba(255, 255, 255, 0.623);
-    width: 2%;
-    color: black;
-    right: 2%;
-    text-align: center;
-    height: 200px;
-    line-height: 200px;
-    z-index: 1;
-    cursor: pointer;
-    user-select: none;
 }
 
 #nav{
@@ -229,6 +106,164 @@ a{
     border-bottom: solid 2px rgb(255, 166, 0);
 }
 
+/* tela principal */
+
+#princ_titulos{
+    color: rgb(255, 166, 0);
+    text-shadow: 5px 5px 5px black;
+    text-align: left;
+    margin: 130px 8%;
+    user-select: none;
+    position: absolute;
+    z-index: 1;
+}
+
+#filmes{
+    position: absolute;
+    padding: 4%;
+    height: 200px;
+    top: 10%;
+    display: flex;
+}
+
+#conteudo .vejamais{
+    text-align: center;
+    position: relative;
+    margin-left: 92%;
+    right: 10px;
+    top: 150px;
+    z-index: 1;
+}
+
+#conteudo a{
+    color: rgb(255, 166, 0);
+}
+
+#filmes #slide1{
+    position: relative;
+    top: 15%;
+    height: 175px;
+    display: inline;
+    margin: 0 5px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 8px;
+}
+
+#princ_titulos1{
+    color: rgb(255, 166, 0);
+    text-shadow: 5px 5px 5px black;
+    text-align: left;
+    margin: 410px 8%;
+    user-select: none;
+    position: absolute;
+    z-index: 1;
+}
+
+#conteudo .vejamais1{
+    text-align: center;
+    position: relative;
+    margin-left: 92%;
+    right: 10px;
+    top: 430px;
+    z-index: 1;
+}
+
+img{
+    border-radius: 5px;
+}
+
+#slide1 p{
+    color: rgb(255, 255, 255);
+    font: bolder 100% arial;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    bottom: 50px;
+    text-shadow: 5px 2px 5px black;
+    line-height: 100%;
+    user-select: none;
+}
+
+#slide1:hover{
+    border: solid 3px white;
+}
+
+.filme {
+    box-shadow: 1px 1px 10px #000000; 
+}
+
+#tela-filme{
+    background-color: rgba(0, 0, 0, 0.479);
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 1085px;
+}
+
+#tela-filme1{
+    background-color: rgba(0, 0, 0, 0.479);
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 1085px;
+}
+
+.btnplay{
+    position: absolute;
+    z-index: 2;
+    left: 40%;
+    top: 15%;
+    display: flex;
+    cursor: pointer;
+}
+
+#sinopse{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    margin: 350px 50px;
+    font: bolder 20pt arial;
+}
+
+.sinopse{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    margin: 400px 50px;
+    text-align: left;
+    font: normal 15pt arial;
+}
+
+#play img{
+    position: absolute;
+    display: flex;
+}
+
+.filter_filme{
+    z-index: 1;
+}
+
+#play{
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+    position: relative;
+    width: 50%;
+    height: 640px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#play .close{
+    color: white;
+    text-align: center;
+    padding: 1% 2%;
+    cursor: pointer;
+    margin-left: 95%;
+    user-select: none;
+}
+
 #conteudo{
     background-color: rgba(0, 0, 0, 0.534);
     align-items: center;
@@ -237,12 +272,37 @@ a{
     margin: 2% auto;
     height: 900px;
     border-radius: 20px;
+    justify-content: space-between;
 }
+
+#gepic{
+    margin-top: 1%;
+}
+
+#playfilme {
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 924px;
+    padding-top: 15px;
+}
+
+/* rodape */
 
 #rodape1 {
     background-color: rgb(40, 9, 61);
     height: 25px;
     margin-top: 2%;
+    padding: 2%;
+    margin-bottom: 0;
+    font-size: 10pt;
+    color: white;
+    line-height: 200%;
+    font-size: 70%;
+}
+
+#rodape{
+    background-color: rgb(40, 9, 61);
+    height: 25px;
+    margin-top: 12.45%;
     padding: 2%;
     margin-bottom: 0;
     font-size: 10pt;
