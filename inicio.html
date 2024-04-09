@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociedade Cinéfila</title>
+    <link rel="stylesheet" href="sociedade.css">
+</head>
+<body id="principal">
+
+    <div id="tela-filme" hidden>
+        <div id="play">
+            <p class="close" onclick="fechar()"> X </p>
+                <iframe src="https://drive.google.com/file/d/1Qtt22irUwEhFD8fIfYTczuBR9BN99Dml/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <header id="cabec">
+        <a href="inicio.html"> <h1 id="titulo"> Sociedade Cinéfila </h1> </a> 
+        <nav>
+            <ul id="nav">
+                <li class="item"><a href="inicio.html">Inicio</a></li>
+                <li class="item"><a href="filmes.html">SociedadeCinéfila</a></li>
+                <li class="item"><a href="#">GEPIC</a></li>
+                <li class="item" hidden><a href="#">Curtas</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+
+    <div id="conteudo">
+        <h2 id="princ_titulos"> Principais títulos </h2>
+        <div id="filmes">
+
+        <div id="btn-left" onclick="direcao(1)" hidden>
+            <
+        </div>
+
+                <div id="slide1" onclick="abrir(1)">
+                    <img src="multimidia/filmes/vivre_sa_vie/vivre_sa_vie_1280.png" width="100%" height="100%" class="filme">
+                    <p> <strong> VIVRE SA VIE </strong> </p>
+                </div>
+                <div id="slide1" onclick="abrir(2)">
+                    <img src="multimidia/filmes/the_poushkeepsie_tapes/the_tapes.png" width="100%" height="100%" class="filme">
+                    <p> <strong> THE POUSHKEEPSIE TAPES </strong> </p>
+                </div>
+                <div id="slide1" onclick="abrir(3)">
+                    <img src="multimidia/Modelo.png" width="100%" height="100%" class="filme">
+                    <p> <strong> TESTE </strong> </p>
+                </div>
+                <div id="slide1" onclick="abrir(4)">
+                    <img src="multimidia/Modelo.png" width="100%" height="100%" class="filme">
+                    <p> <strong> TESTE </strong> </p>
+                </div>
+                <div id="slide1" onclick="abrir(5)">
+                    <img src="multimidia/Modelo.png" width="100%" height="100%" class="filme">
+                    <p> <strong> TESTE</strong> </p>
+                </div>
+                <div id="slide1" onclick="abrir(6)">
+                    <img src="multimidia/Modelo.png" width="100%" height="100%" class="filme">
+                    <p> <strong> TESTE </strong> </p>
+                </div>
+
+        <div id="btn-right" onclick="direcao(2)" hidden>
+            >
+        </div>
+        </div>
+
+    </div>
+    
+    <footer id="rodape1">
+        <p> <i> Sociedade cinéfila ©️ 2024</i> </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
